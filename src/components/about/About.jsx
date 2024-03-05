@@ -1,6 +1,6 @@
 import './about.css'
 import ProfileImg from '../../../public/assets/pic-me-nobg.png'
-import Resume from '../../../public/assets/Resume-Salvador-Nov-Larsley-F..pdf'
+import Resume from '../../../public/assets/Salvador_Nov_Larsley_UpdatedResume.pdf'
 import Info from './Info'
 
 function About() {
