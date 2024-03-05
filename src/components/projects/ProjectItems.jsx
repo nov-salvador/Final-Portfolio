@@ -10,7 +10,7 @@ function ProjectItems({item}) {
           Demo 
           <i className="bx bx-right-arrow-alt project-button-icon"></i>
         </a>
-        <a href={item.demo} target="_blank"className="project-button-github">
+        <a href={item.github} target="_blank"className="project-button-github">
           <i className="uil uil-github-alt project-button-github-icon"></i>
         </a>
       </div>
