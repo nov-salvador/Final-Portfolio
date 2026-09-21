@@ -1,0 +1,57 @@
+.certificates-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.certificate-card {
+  max-width: 400px;
+  background-color: var(--container-color);
+  border-radius: 1rem;
+  border: 1px solid var(--text-color);
+  padding: 1.25rem;
+  padding-bottom: .1rem;
+}
+
+.certificate-card:hover {
+  transform: translateY(-5px);
+}
+
+.certificate-image img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.certificate-content {
+  padding: 10px;
+}
+
+.certificate-content h3 {
+  margin-bottom: 10px;
+}
+
+.certificate-details {
+  margin: 15px 0;
+}
+.certificate-button-icon{
+  font-size: 1.25rem;
+  transition: .4s;
+}
+.certificate-button{
+  color: var(--title-color);
+  font-size: .8rem;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  &:hover{
+    .certificate-button-icon{
+      transform: translateX(.3rem);
+    }
+  }
+}

@@ -42,12 +42,32 @@ function Header() {
             </li>
             <li className="nav-item">
               <a 
+                href="#qualification" 
+                className={activeTab === "#qualification" ? "nav-link active-link" : "nav-link"}
+                onClick={() => setActiveTab("#qualification")}
+              >
+                <i className="uil uil-estate nav-icon"/>
+                Qualification
+              </a>
+            </li>
+            <li className="nav-item">
+              <a 
                 href="#projects" 
                 className={activeTab === "#projects" ? "nav-link active-link" : "nav-link"}
                 onClick={() => setActiveTab("#projects")}
               >
                 <i className="uil uil-browser nav-icon"/>
                 Projects
+              </a>
+            </li>
+            <li className="nav-item">
+              <a 
+                href="#certificates" 
+                className={activeTab === "#certificates" ? "nav-link active-link" : "nav-link"}
+                onClick={() => setActiveTab("#certificates")}
+              >
+                <i className="uil uil-estate nav-icon"/>
+                Certificates
               </a>
             </li>
             <li className="nav-item">

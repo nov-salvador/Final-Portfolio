@@ -7,7 +7,7 @@ function Qualification() {
     setToggle(index)
   } 
   return (
-    <section className="qualification section">
+    <section className="qualification section" id='qualification'>
       <h2 className="section-title">Qualification</h2>
       <span className="section-subtitle">Self-discovery</span>
       <div className="qualification-container container">
@@ -31,6 +31,37 @@ function Qualification() {
           <div className={toggle === 1 ? "qualification-content qualification-content-active" : "qualification-content"}>
             <div className="qualification-data">
               <div>
+                <h3 className="qualification-title">Data Science</h3>
+                <span className="qualification-subtitle">IBM</span>
+                <div className="qualification-calendar">
+                  <i className="uil uil-calender calendar-icon"></i>
+                  June 2026 - July 2026
+                </div>
+              </div>
+              <div>
+                <span className="qualification-rounder"></span>
+                <span className="qualification-line"></span>
+              </div>
+            </div>
+
+            <div className="qualification-data">
+              <div></div>
+              <div>
+                <span className="qualification-rounder"></span>
+                <span className="qualification-line"></span>
+              </div>
+              <div>
+                <h3 className="qualification-title">Machine Learning Specialization</h3>
+                <span className="qualification-subtitle">DeepLearning.AI</span>
+                <div className="qualification-calendar">
+                  <i className="uil uil-calender calendar-icon"></i>
+                  April 2026 - June 2026
+                </div>
+              </div>
+            </div>
+            
+            <div className="qualification-data">
+              <div>
                 <h3 className="qualification-title">Fullstack Web Developer</h3>
                 <span className="qualification-subtitle">Uplift Code Camp</span>
                 <div className="qualification-calendar">
@@ -43,6 +74,7 @@ function Qualification() {
                 <span className="qualification-line"></span>
               </div>
             </div>
+
             <div className="qualification-data">
               <div></div>
               <div>
@@ -58,6 +90,7 @@ function Qualification() {
                 </div>
               </div>
             </div>
+            
             <div className="qualification-data">
               <div>
                 <h3 className="qualification-title">BS Civil Engineering</h3>
@@ -72,6 +105,7 @@ function Qualification() {
                 <span className="qualification-line"></span>
               </div>
             </div>
+
             <div className="qualification-data">
               <div></div>
               <div>
@@ -92,16 +126,32 @@ function Qualification() {
           <div className={toggle === 2 ? "qualification-content qualification-content-active" : "qualification-content"}>
             <div className="qualification-data">
               <div>
+                <h3 className="qualification-title">Project Engineer</h3>
+                <span className="qualification-subtitle">EGB Construction Corp.</span>
+                <div className="qualification-calendar">
+                  <i className="uil uil-calender calendar-icon"></i>
+                  October 2024 - November 2025
+                </div>
+              </div>
+              <div>
+                <span className="qualification-rounder"></span>
+                <span className="qualification-line"></span>
+              </div>
+            </div>
+
+            <div className="qualification-data">
+              <div></div>
+              <div>
+                <span className="qualification-rounder"></span>
+                <span className="qualification-line"></span>
+              </div>
+              <div>
                 <h3 className="qualification-title">Civil Engineer</h3>
                 <span className="qualification-subtitle">JFE Techno Manila, Inc.</span>
                 <div className="qualification-calendar">
                   <i className="uil uil-calender calendar-icon"></i>
                   June 2023 - September 2024
                 </div>
-              </div>
-              <div>
-                <span className="qualification-rounder"></span>
-                <span className="qualification-line"></span>
               </div>
             </div>
           </div>

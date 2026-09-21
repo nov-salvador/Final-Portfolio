@@ -1,5 +1,8 @@
 import Civil from "./Civil"
+import Data_Science from "./Data_Science"
 import Fullstack from "./Fullstack"
+import Machine_Learning from "./Machine_Learning"
+import MLOps from "./MLOps"
 import './skills.css'
 
 function Skills() {
@@ -10,6 +13,9 @@ function Skills() {
       <div className="skills-container container grid">
         <Fullstack/>
         <Civil/>
+        <Data_Science/>
+        <Machine_Learning/>
+        <MLOps/>
       </div>
     </section>
   )
