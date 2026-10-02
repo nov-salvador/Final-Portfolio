@@ -26,7 +26,7 @@ export const projectsData =[
     id: 2,
     picture: spacex,
     demo: "https://bridge-crack-detection.netlify.app/",
-    github:"https://bridge-crack-detection.netlify.app/",
+    github:"https://github.com/nov-salvador/SpaceX_Landing",
     title: "SpaceX Landing Prediction",
     category: "Data Science",
     description: "Collected launch data through REST APIs and web scraping. Cleaned and transformed datasets using Pandas. Developed and compared classification models including Logistic Regression, Decision Tree, Random Forest, SVM, and \
