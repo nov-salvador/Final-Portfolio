@@ -25,7 +25,7 @@ export const projectsData =[
   {
     id: 2,
     picture: spacex,
-    demo: "https://bridge-crack-detection.netlify.app/",
+    demo: "https://github.com/nov-salvador/SpaceX_Landing",
     github:"https://github.com/nov-salvador/SpaceX_Landing",
     title: "SpaceX Landing Prediction",
     category: "Data Science",
