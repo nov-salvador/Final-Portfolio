@@ -8,6 +8,7 @@ import weatherPrediction from '../../../public/assets/weatherPrediction.png'
 import titanic from '../../../public/assets/titanic.png'
 import ETL from '../../../public/assets/ETL.png'
 import dataVisualization from '../../../public/assets/dataVisualization.png'
+import freightRate from '../../../public/assets/freightRate.png'
 
 export const projectsData =[
   {
@@ -78,6 +79,16 @@ export const projectsData =[
   },
   {
     id: 7,
+    picture: freightRate,
+    demo: "https://github.com/nov-salvador/Freight-Rate-Prediction/",
+    github:"https://github.com/nov-salvador/Freight-Rate-Prediction/",
+    title: "Freight Rate Prediction",
+    category: "Machine Learning",
+    description: "Developed a machine learning solution to predict freight rates from historical shipment data. \
+                  Performed exploratory data analysis, data-quality checks, feature engineering, and preprocessing to prepare the dataset for modeling."
+  },
+  {
+    id: 8,
     picture: kamarites,
     demo: "https://kamarites.netlify.app",
     github:"https://github.com/nov-salvador/NodeApp",
@@ -86,7 +97,7 @@ export const projectsData =[
     description: "Social media web app. Technologies used are MongDB, ExpresJs, React, NodeJs."
   },
   {
-    id: 8,
+    id: 9,
     picture: ahas,
     demo: "https://ahas.netlify.app",
     github:"https://github.com/nov-salvador/AHAS",
@@ -95,7 +106,7 @@ export const projectsData =[
     description: "Old-school gaming with my very own Javascript Snake Game!."
   },
   {
-    id: 9,
+    id: 10,
     picture: serbisio,
     demo: "https://serbisio.netlify.app",
     github:"https://github.com/nov-salvador/Serbisio-Team-Project",
@@ -104,7 +115,7 @@ export const projectsData =[
     description: "Explore, Apply, Succeed: Your Gateway to Opportunity. A MERN stack web application."
   },
   {
-    id: 10,
+    id: 11,
     picture: ilutomo,
     demo: "https://ilutomobaybe.netlify.app",
     github:"https://github.com/nov-salvador/React-RecipeWeb",
